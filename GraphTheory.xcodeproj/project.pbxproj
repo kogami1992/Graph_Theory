@@ -7,19 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2736F16B2937891B006CAE0E /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2736F16A2937891B006CAE0E /* Math.swift */; };
+		2798EEE72939768600D52C00 /* DefinitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2798EEE62939768600D52C00 /* DefinitionView.swift */; };
 		27ED58DB293763FD00932481 /* GraphTheoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58DA293763FD00932481 /* GraphTheoryApp.swift */; };
 		27ED58DD293763FD00932481 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58DC293763FD00932481 /* ContentView.swift */; };
 		27ED58DF293763FE00932481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27ED58DE293763FE00932481 /* Assets.xcassets */; };
 		27ED58E2293763FE00932481 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27ED58E1293763FE00932481 /* Preview Assets.xcassets */; };
+		27ED58EB2937644000932481 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58EA2937644000932481 /* Edge.swift */; };
+		27ED58ED2937646200932481 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58EC2937646200932481 /* Vertex.swift */; };
+		27ED58EF2937649200932481 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58EE2937649200932481 /* Canvas.swift */; };
+		27ED58F1293764B700932481 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58F0293764B700932481 /* Definition.swift */; };
+		27ED58F4293764DC00932481 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58F3293764DC00932481 /* ModelData.swift */; };
+		27ED58F62937651300932481 /* PrimTableModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58F52937651300932481 /* PrimTableModel1.swift */; };
+		27ED58F82937655C00932481 /* Kruskal1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58F72937655C00932481 /* Kruskal1.swift */; };
+		27ED58FA2937657D00932481 /* ChinesePostmanModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58F92937657D00932481 /* ChinesePostmanModel1.swift */; };
+		27ED58FC2937659400932481 /* TSP1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58FB2937659400932481 /* TSP1.swift */; };
+		27ED58FE293765AF00932481 /* Konigsberg2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58FD293765AF00932481 /* Konigsberg2.swift */; };
+		27ED5900293765CE00932481 /* Konigsberg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED58FF293765CE00932481 /* Konigsberg.swift */; };
+		27ED5903293767B200932481 /* GraphAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED5902293767B200932481 /* GraphAlgorithm.swift */; };
+		27ED5905293767CA00932481 /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED5904293767CA00932481 /* Kruskal.swift */; };
+		27ED5907293767E400932481 /* Prim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED5906293767E400932481 /* Prim.swift */; };
+		27ED5909293767FD00932481 /* PrimTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED5908293767FD00932481 /* PrimTable.swift */; };
+		27ED590B2937681400932481 /* TSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED590A2937681400932481 /* TSP.swift */; };
+		27ED590D2937682F00932481 /* ChinesePostman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED590C2937682F00932481 /* ChinesePostman.swift */; };
+		27ED590F2937684800932481 /* EdgeViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED590E2937684800932481 /* EdgeViewExtension.swift */; };
+		27ED59112937685F00932481 /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED59102937685F00932481 /* Permutation.swift */; };
+		27ED59132937687800932481 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED59122937687800932481 /* Graph.swift */; };
+		27ED59152937688D00932481 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED59142937688D00932481 /* Matrix.swift */; };
+		27ED5917293768A400932481 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED5916293768A400932481 /* Gradients.swift */; };
+		27ED5919293768B700932481 /* TrailingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED5918293768B700932481 /* TrailingIcon.swift */; };
+		27ED591B293768CD00932481 /* NumbersOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED591A293768CD00932481 /* NumbersOnly.swift */; };
+		27ED591E293769B500932481 /* GraphTheoryIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED591D293769B500932481 /* GraphTheoryIntro.swift */; };
+		27ED5920293769E100932481 /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED591F293769E100932481 /* Graphs.swift */; };
+		27ED592329376A0C00932481 /* Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED592229376A0C00932481 /* Loops.swift */; };
+		ED5414ACF4F26FDA4FE2D78B /* Pods_GraphTheory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32D86B92BE8FF8E375D7558 /* Pods_GraphTheory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AB1AD768D1A7339E86322BF /* Pods-GraphTheory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTheory.debug.xcconfig"; path = "Target Support Files/Pods-GraphTheory/Pods-GraphTheory.debug.xcconfig"; sourceTree = "<group>"; };
+		2736F16A2937891B006CAE0E /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		2798EEE62939768600D52C00 /* DefinitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionView.swift; sourceTree = "<group>"; };
 		27ED58D7293763FD00932481 /* GraphTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27ED58DA293763FD00932481 /* GraphTheoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTheoryApp.swift; sourceTree = "<group>"; };
 		27ED58DC293763FD00932481 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27ED58DE293763FE00932481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27ED58E1293763FE00932481 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27ED58E3293763FE00932481 /* GraphTheory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GraphTheory.entitlements; sourceTree = "<group>"; };
+		27ED58EA2937644000932481 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		27ED58EC2937646200932481 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		27ED58EE2937649200932481 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		27ED58F0293764B700932481 /* Definition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definition.swift; sourceTree = "<group>"; };
+		27ED58F3293764DC00932481 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		27ED58F52937651300932481 /* PrimTableModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimTableModel1.swift; sourceTree = "<group>"; };
+		27ED58F72937655C00932481 /* Kruskal1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal1.swift; sourceTree = "<group>"; };
+		27ED58F92937657D00932481 /* ChinesePostmanModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinesePostmanModel1.swift; sourceTree = "<group>"; };
+		27ED58FB2937659400932481 /* TSP1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSP1.swift; sourceTree = "<group>"; };
+		27ED58FD293765AF00932481 /* Konigsberg2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konigsberg2.swift; sourceTree = "<group>"; };
+		27ED58FF293765CE00932481 /* Konigsberg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konigsberg.swift; sourceTree = "<group>"; };
+		27ED5902293767B200932481 /* GraphAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAlgorithm.swift; sourceTree = "<group>"; };
+		27ED5904293767CA00932481 /* Kruskal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
+		27ED5906293767E400932481 /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
+		27ED5908293767FD00932481 /* PrimTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimTable.swift; sourceTree = "<group>"; };
+		27ED590A2937681400932481 /* TSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSP.swift; sourceTree = "<group>"; };
+		27ED590C2937682F00932481 /* ChinesePostman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinesePostman.swift; sourceTree = "<group>"; };
+		27ED590E2937684800932481 /* EdgeViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeViewExtension.swift; sourceTree = "<group>"; };
+		27ED59102937685F00932481 /* Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutation.swift; sourceTree = "<group>"; };
+		27ED59122937687800932481 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		27ED59142937688D00932481 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		27ED5916293768A400932481 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		27ED5918293768B700932481 /* TrailingIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIcon.swift; sourceTree = "<group>"; };
+		27ED591A293768CD00932481 /* NumbersOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersOnly.swift; sourceTree = "<group>"; };
+		27ED591D293769B500932481 /* GraphTheoryIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTheoryIntro.swift; sourceTree = "<group>"; };
+		27ED591F293769E100932481 /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		27ED592229376A0C00932481 /* Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loops.swift; sourceTree = "<group>"; };
+		6771BEC7FA1106851F2435B6 /* Pods-GraphTheory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphTheory.release.xcconfig"; path = "Target Support Files/Pods-GraphTheory/Pods-GraphTheory.release.xcconfig"; sourceTree = "<group>"; };
+		F32D86B92BE8FF8E375D7558 /* Pods_GraphTheory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphTheory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +89,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5414ACF4F26FDA4FE2D78B /* Pods_GraphTheory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2798EEE52939766A00D52C00 /* Textbook Models */ = {
+			isa = PBXGroup;
+			children = (
+				27ED58FF293765CE00932481 /* Konigsberg.swift */,
+				27ED58FD293765AF00932481 /* Konigsberg2.swift */,
+				2798EEE62939768600D52C00 /* DefinitionView.swift */,
+			);
+			path = "Textbook Models";
+			sourceTree = "<group>";
+		};
 		27ED58CE293763FD00932481 = {
 			isa = PBXGroup;
 			children = (
 				27ED58D9293763FD00932481 /* GraphTheory */,
 				27ED58D8293763FD00932481 /* Products */,
+				46DAE08EEC4FA907C59CA536 /* Pods */,
+				7358E053DCB23F682DE64DB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +127,18 @@
 		27ED58D9293763FD00932481 /* GraphTheory */ = {
 			isa = PBXGroup;
 			children = (
+				2798EEE52939766A00D52C00 /* Textbook Models */,
 				27ED58DA293763FD00932481 /* GraphTheoryApp.swift */,
 				27ED58DC293763FD00932481 /* ContentView.swift */,
+				27ED592129376A0000932481 /* Test Files */,
+				27ED591C293769A100932481 /* Learn */,
+				27ED5901293765DE00932481 /* Algorithms */,
+				27ED58F2293764C700932481 /* Models */,
+				27ED58E92937643300932481 /* Views */,
+				27ED5916293768A400932481 /* Gradients.swift */,
+				2736F16A2937891B006CAE0E /* Math.swift */,
+				27ED591A293768CD00932481 /* NumbersOnly.swift */,
+				27ED5918293768B700932481 /* TrailingIcon.swift */,
 				27ED58DE293763FE00932481 /* Assets.xcassets */,
 				27ED58E3293763FE00932481 /* GraphTheory.entitlements */,
 				27ED58E0293763FE00932481 /* Preview Content */,
@@ -69,6 +154,80 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		27ED58E92937643300932481 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27ED58EA2937644000932481 /* Edge.swift */,
+				27ED58EE2937649200932481 /* Canvas.swift */,
+				27ED58EC2937646200932481 /* Vertex.swift */,
+				27ED58F0293764B700932481 /* Definition.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27ED58F2293764C700932481 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27ED58F3293764DC00932481 /* ModelData.swift */,
+				27ED58F52937651300932481 /* PrimTableModel1.swift */,
+				27ED58F72937655C00932481 /* Kruskal1.swift */,
+				27ED58F92937657D00932481 /* ChinesePostmanModel1.swift */,
+				27ED58FB2937659400932481 /* TSP1.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27ED5901293765DE00932481 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				27ED5902293767B200932481 /* GraphAlgorithm.swift */,
+				27ED5904293767CA00932481 /* Kruskal.swift */,
+				27ED5906293767E400932481 /* Prim.swift */,
+				27ED5908293767FD00932481 /* PrimTable.swift */,
+				27ED590A2937681400932481 /* TSP.swift */,
+				27ED590C2937682F00932481 /* ChinesePostman.swift */,
+				27ED590E2937684800932481 /* EdgeViewExtension.swift */,
+				27ED59102937685F00932481 /* Permutation.swift */,
+				27ED59122937687800932481 /* Graph.swift */,
+				27ED59142937688D00932481 /* Matrix.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		27ED591C293769A100932481 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				27ED591D293769B500932481 /* GraphTheoryIntro.swift */,
+				27ED591F293769E100932481 /* Graphs.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		27ED592129376A0000932481 /* Test Files */ = {
+			isa = PBXGroup;
+			children = (
+				27ED592229376A0C00932481 /* Loops.swift */,
+			);
+			path = "Test Files";
+			sourceTree = "<group>";
+		};
+		46DAE08EEC4FA907C59CA536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1AD768D1A7339E86322BF /* Pods-GraphTheory.debug.xcconfig */,
+				6771BEC7FA1106851F2435B6 /* Pods-GraphTheory.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7358E053DCB23F682DE64DB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F32D86B92BE8FF8E375D7558 /* Pods_GraphTheory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27ED58E6293763FE00932481 /* Build configuration list for PBXNativeTarget "GraphTheory" */;
 			buildPhases = (
+				D099DA240E2638108A498BAD /* [CP] Check Pods Manifest.lock */,
 				27ED58D3293763FD00932481 /* Sources */,
 				27ED58D4293763FD00932481 /* Frameworks */,
 				27ED58D5293763FD00932481 /* Resources */,
+				AA01EDD61FE8131E50DF9429 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,13 +295,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AA01EDD61FE8131E50DF9429 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraphTheory/Pods-GraphTheory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GraphTheory/Pods-GraphTheory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GraphTheory/Pods-GraphTheory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D099DA240E2638108A498BAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraphTheory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27ED58D3293763FD00932481 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27ED58FC2937659400932481 /* TSP1.swift in Sources */,
+				27ED58FE293765AF00932481 /* Konigsberg2.swift in Sources */,
 				27ED58DD293763FD00932481 /* ContentView.swift in Sources */,
+				27ED58ED2937646200932481 /* Vertex.swift in Sources */,
+				27ED591B293768CD00932481 /* NumbersOnly.swift in Sources */,
+				27ED5903293767B200932481 /* GraphAlgorithm.swift in Sources */,
+				27ED58F62937651300932481 /* PrimTableModel1.swift in Sources */,
+				27ED5905293767CA00932481 /* Kruskal.swift in Sources */,
+				27ED5920293769E100932481 /* Graphs.swift in Sources */,
 				27ED58DB293763FD00932481 /* GraphTheoryApp.swift in Sources */,
+				27ED58EF2937649200932481 /* Canvas.swift in Sources */,
+				27ED591E293769B500932481 /* GraphTheoryIntro.swift in Sources */,
+				27ED58F82937655C00932481 /* Kruskal1.swift in Sources */,
+				27ED590D2937682F00932481 /* ChinesePostman.swift in Sources */,
+				27ED5917293768A400932481 /* Gradients.swift in Sources */,
+				27ED58F1293764B700932481 /* Definition.swift in Sources */,
+				27ED58EB2937644000932481 /* Edge.swift in Sources */,
+				27ED592329376A0C00932481 /* Loops.swift in Sources */,
+				27ED5909293767FD00932481 /* PrimTable.swift in Sources */,
+				27ED59152937688D00932481 /* Matrix.swift in Sources */,
+				27ED59112937685F00932481 /* Permutation.swift in Sources */,
+				27ED590B2937681400932481 /* TSP.swift in Sources */,
+				27ED590F2937684800932481 /* EdgeViewExtension.swift in Sources */,
+				27ED58FA2937657D00932481 /* ChinesePostmanModel1.swift in Sources */,
+				27ED59132937687800932481 /* Graph.swift in Sources */,
+				27ED5907293767E400932481 /* Prim.swift in Sources */,
+				27ED5900293765CE00932481 /* Konigsberg.swift in Sources */,
+				27ED5919293768B700932481 /* TrailingIcon.swift in Sources */,
+				27ED58F4293764DC00932481 /* ModelData.swift in Sources */,
+				2736F16B2937891B006CAE0E /* Math.swift in Sources */,
+				2798EEE72939768600D52C00 /* DefinitionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +494,7 @@
 		};
 		27ED58E7293763FE00932481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB1AD768D1A7339E86322BF /* Pods-GraphTheory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +522,7 @@
 		};
 		27ED58E8293763FE00932481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6771BEC7FA1106851F2435B6 /* Pods-GraphTheory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
